@@ -44,7 +44,7 @@ Downloads available in multiple resolutions:
 
 ## Video Information Display
 
-Once you paste a YouTube URL, the system instantly fetches and displays:
+Once you paste a YouTube URL, the system instantly fetches and displays the following
 
 ![Video Info Display](https://sk10codebase.online/images/Youtube/UI.png)
 
