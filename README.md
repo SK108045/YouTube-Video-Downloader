@@ -55,10 +55,19 @@ The Web App is currently hosted on my VPS with
 - Memory-optimized video processing
 - Automatic cleanup routines
 
-## Technology Stack
+## Tech Stack
 - Html and Css
 - Vanilla JavaScript 
 - Node.js & Express
 - youtube-dl-exec for video processing
 - FFmpeg for media handling
 - Firebase integration
+
+## Development Status 
+
+This project is currently in its startup phase. The application is running smoothly in production, serving users with fast and reliable downloads. As I continue to grow this platform, I'll be releasing the source code in the future.
+
+---
+Star this repository to stay updated on the source code release and upcoming features!
+
+  
