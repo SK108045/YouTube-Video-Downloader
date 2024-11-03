@@ -11,25 +11,6 @@ This repo contains a high-performance YouTube video downloader built with Node.j
 - No registration required
 - Clean, ad-free interface
 
-## Core Architecture
-
-The application uses a multi-stage processing pipeline to handle video downloads efficiently
-
-### Video Processing
-The backend implements a dual-stream approach, separately processing video and audio streams for optimal quality. Using youtube-dl-exec, it fetches the highest quality streams available, then uses FFmpeg for combining them with optimized settings:
-
-- Concurrent video/audio stream processing
-- Smart buffer management (32MB buffer size)
-- Ultrafast FFmpeg preset with threading optimization
-- Automatic temporary file cleanup
-- Chunked transfer encoding for smooth downloads
-
-### Server Infrastructure
-The Web App is currently hosted on my VPS with
-- Nginx reverse proxy configuration
-- Memory-optimized video processing
-- Automatic cleanup routines
-
 ## Quality Options
 ![UI Screenshot](https://sk10codebase.online/images/Youtube/Quality.png)
 Downloads available in multiple resolutions:
@@ -55,6 +36,24 @@ Once you paste a YouTube URL, the system instantly fetches and displays the foll
 
 This clean preview ensures you're downloading exactly the video you want, presented in a sleek, organized layout before selecting your preferred quality option.
 
+## Core Architecture
+
+The application uses a multi-stage processing pipeline to handle video downloads efficiently
+
+### Video Processing
+The backend implements a dual-stream approach, separately processing video and audio streams for optimal quality. Using youtube-dl-exec, it fetches the highest quality streams available, then uses FFmpeg for combining them with optimized settings:
+
+- Concurrent video/audio stream processing
+- Smart buffer management (32MB buffer size)
+- Ultrafast FFmpeg preset with threading optimization
+- Automatic temporary file cleanup
+- Chunked transfer encoding for smooth downloads
+
+### Server Infrastructure
+The Web App is currently hosted on my VPS with
+- Nginx reverse proxy configuration
+- Memory-optimized video processing
+- Automatic cleanup routines
 
 ## Technology Stack
 - Html and Css
