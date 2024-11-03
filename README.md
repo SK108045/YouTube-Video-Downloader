@@ -30,6 +30,18 @@ The Web App is currently hosted on my VPS with
 - Memory-optimized video processing
 - Automatic cleanup routines
 
+## Quality Options
+![UI Screenshot](https://sk10codebase.online/images/Youtube/Quality.png)
+Downloads available in multiple resolutions:
+- 2160p (4K Ultra HD)
+- 1440p (2K)
+- 1080p (Full HD)
+- 720p (HD)
+- 480p
+- 360p
+- 240p
+- 144p
+
 ## Technology Stack
 - Html and Css
 - Vanilla JavaScript 
