@@ -13,7 +13,7 @@ This repo contains a high-performance YouTube video downloader built with Node.j
 
 ## Core Architecture
 
-The application uses a multi-stage processing pipeline to handle video downloads efficiently:
+The application uses a multi-stage processing pipeline to handle video downloads efficiently
 
 ### Video Processing
 The backend implements a dual-stream approach, separately processing video and audio streams for optimal quality. Using youtube-dl-exec, it fetches the highest quality streams available, then uses FFmpeg for combining them with optimized settings:
@@ -25,7 +25,7 @@ The backend implements a dual-stream approach, separately processing video and a
 - Chunked transfer encoding for smooth downloads
 
 ### Server Infrastructure
-The Web App is currently hosted on my VPS with:
+The Web App is currently hosted on my VPS with
 - Nginx reverse proxy configuration
 - Memory-optimized video processing
 - Automatic cleanup routines
