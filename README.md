@@ -42,6 +42,20 @@ Downloads available in multiple resolutions:
 - 240p
 - 144p
 
+## Video Information Display
+
+Once you paste a YouTube URL, the system instantly fetches and displays:
+
+![Video Info Display](https://sk10codebase.online/images/Youtube/UI.png)
+
+- High quality video thumbnail
+- Complete video title
+- Channel name
+- Video duration
+
+This clean preview ensures you're downloading exactly the video you want, presented in a sleek, organized layout before selecting your preferred quality option.
+
+
 ## Technology Stack
 - Html and Css
 - Vanilla JavaScript 
