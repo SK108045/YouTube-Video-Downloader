@@ -1,1 +1,142 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube Video Downloader</title>
+
+    <!-- Favicon -->
+    <link rel="icon" href="/favicon.ico?v1" type="image/x-icon">
+    <link rel="shortcut icon" href="/favicon.ico?v1" type="image/x-icon">
+    
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="progress-bar" id="progressBar"></div>
+    
+    <div class="hero-section">
+        <div class="container">
+            <header>
+                <div class="theme-switch">
+                    <input type="checkbox" id="theme-toggle">
+                    <label for="theme-toggle" class="theme-label">
+                        <i class="fas fa-sun"></i>
+                        <i class="fas fa-moon"></i>
+                    </label>
+                </div>
+                <h1><i class="fab fa-youtube"></i> YouTube Video Downloader</h1>
+                <p>Download YouTube videos & Shorts in HD - Multiple formats available, completely free, no watermarks or registration required. Fast and secure downloads.</p>
+            </header>
+        </div>
+    </div>
+
+    <div class="container">
+        <main>
+            <div class="search-container">
+                <input type="text" id="videoUrl" placeholder="Paste YouTube video URL here...">
+                <button id="fetchBtn">Fetch Video</button>
+            </div>
+
+            <div class="video-info" id="videoInfo">
+                <div class="thumbnail-container">
+                    <img id="thumbnail" src="" alt="Video thumbnail">
+                </div>
+                <div class="details">
+                    <h2 id="videoTitle"></h2>
+                    <p id="videoDuration"></p>
+                    <p id="videoAuthor"></p>
+                </div>
+            </div>
+
+            <div class="download-options" id="downloadOptions">
+                <h3>Download Options</h3>
+                <div class="quality-options">
+                    <div class="option">
+                        <input type="radio" name="quality" id="1080p" value="1080p">
+                        <label for="1080p">1080p (Full HD)</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="quality" id="720p" value="720p">
+                        <label for="720p">720p (HD)</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="quality" id="480p" value="480p">
+                        <label for="480p">480p</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="quality" id="360p" value="360p">
+                        <label for="360p">360p</label>
+                    </div>
+                </div>
+                <button id="downloadBtn">Download Video</button>
+            </div>
+
+            <div class="statistics">
+                <div class="stat-item">
+                    <i class="fas fa-download"></i>
+                    <h4>1M+</h4>
+                    <p>Downloads</p>
+                </div>
+                <div class="stat-item">
+                    <i class="fas fa-users"></i>
+                    <h4>500K+</h4>
+                    <p>Users</p>
+                </div>
+                <div class="stat-item">
+                    <i class="fas fa-star"></i>
+                    <h4>4.8/5</h4>
+                    <p>Rating</p>
+                </div>
+            </div>
+
+            <section class="how-to-use">
+                <h2>How to Download</h2>
+                <div class="steps">
+                    <div class="step">
+                        <div class="step-number">1</div>
+                        <h3>Copy URL</h3>
+                        <p>Copy the YouTube video URL you want to download</p>
+                    </div>
+                    <div class="step">
+                        <div class="step-number">2</div>
+                        <h3>Paste Link</h3>
+                        <p>Paste the URL in the input field above</p>
+                    </div>
+                    <div class="step">
+                        <div class="step-number">3</div>
+                        <h3>Download</h3>
+                        <p>Select quality and click download button</p>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <div class="features">
+            <div class="feature">
+                <i class="fas fa-bolt"></i>
+                <h3>Fast Download</h3>
+                <p>Quick and efficient video downloads</p>
+            </div>
+            <div class="feature">
+                <i class="fas fa-shield-alt"></i>
+                <h3>Safe & Secure</h3>
+                <p>100% safe downloading experience</p>
+            </div>
+            <div class="feature">
+                <i class="fas fa-video"></i>
+                <h3>Multiple Formats</h3>
+                <p>Choose from various video qualities</p>
+            </div>
+        </div>
+    </div>
+    <div id="toast-container"></div>
+    <footer>
+        <p>&copy; 2024 YouTube Video Downloader. All rights reserved.</p>
+    </footer>
+
+    <script src="Theme.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
