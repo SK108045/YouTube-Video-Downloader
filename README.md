@@ -27,7 +27,7 @@ Downloads available in multiple resolutions:
 
 Once you paste a YouTube URL, the system instantly fetches and displays the following
 
-![Video Info Display](https://sk10codebase.online/images/Youtube/UI.png)
+![Video Info Display](https://sk10codebase.online/images/Youtube/UserInterface.png)
 
 - High quality video thumbnail
 - Complete video title
