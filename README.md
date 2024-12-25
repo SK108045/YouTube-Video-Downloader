@@ -68,6 +68,6 @@ The Web App is currently hosted on my VPS with
 This project is currently in its startup phase. The application is running smoothly in production **[here](https://youtube.sk10codebase.online)**, serving users with fast and reliable downloads. As I continue to grow this platform, I will be releasing versions of the source code in the future.
 
 ---
-Star this repository to stay updated on the source code release and upcoming features
+Star this repository to stay updated on the source code releases and upcoming features
 
   
