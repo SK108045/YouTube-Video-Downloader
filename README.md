@@ -3,7 +3,7 @@ This repo contains a high-performance YouTube video downloader built with Node.j
 ### - **Currently live [here](https://youtube.sk10codebase.online)**
 
 ## Features
-![UI Screenshot](https://sk10codebase.online/images/Youtube/Youtube.png)
+![UI Screenshot](https://shorturl.sk10codebase.online/images/Youtube/Youtube.png)
 - Multiple quality options (360p to 4k)
 - Dark/Light theme support
 - Real-time download progress
@@ -12,7 +12,7 @@ This repo contains a high-performance YouTube video downloader built with Node.j
 - Clean, ad-free interface
 
 ## Quality Options
-![UI Screenshot](https://sk10codebase.online/images/Youtube/Quality.png)
+![UI Screenshot](https://shorturl.sk10codebase.online/images/Youtube/Quality.png)
 Downloads available in multiple resolutions:
 - 2160p (4K Ultra HD)
 - 1440p (2K)
@@ -27,7 +27,7 @@ Downloads available in multiple resolutions:
 
 Once you paste a YouTube URL, the system instantly fetches and displays the following
 
-![Video Info Display](https://sk10codebase.online/images/Youtube/UserInterface.png)
+![Video Info Display](https://shorturl.sk10codebase.online/images/Youtube/UserInterface.png)
 
 - High quality video thumbnail
 - Complete video title
